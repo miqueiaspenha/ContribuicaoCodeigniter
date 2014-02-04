@@ -1,0 +1,68 @@
+Criar um projeto php base com o nome que quiser.
+Incluir o codigo no arquivos:
+
+/system/core/controller.php
+/system/core/model.php
+
+/**
+* @var CI_Config
+*/
+var $config;
+/**
+* @var CI_DB_active_record
+*/
+var $db;
+/**
+* @var CI_Email
+*/
+var $email;
+/**
+* @var CI_Form_validation
+*/
+var $form_validation;
+/**
+* @var CI_Input
+*/
+var $input;
+/**
+* @var CI_Loader
+*/
+var $load;
+/**
+* @var CI_Router
+*/
+var $router;
+/**
+* @var CI_Session
+*/
+var $session;
+/**
+* @var CI_Table
+*/
+var $table;
+/**
+* @var CI_Unit_test
+*/
+var $unit;
+/**
+* @var CI_URI
+*/
+var $uri;
+/**
+* @var CI_Pagination
+*/
+var $pagination;
+
+Vá em Window/Preferences/Aptana Studio/Editors/Libraries/
+
+New User library
+
+De um nome e o local onde de encontra o seu CI Base que foi criado mais acima.
+
+Depois criar projeto normal para ser setada a nova library.
+
+Propriters do seu projeto.
+
+PHP Buildpath/Libraries
+
+Set Use project specific settings applay e Ok.
