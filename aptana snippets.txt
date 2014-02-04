@@ -1,0 +1,13 @@
+﻿Sem opções
+
+snipet "Img Person" do |snip|
+	snip.trigger = "img"
+	snip.expansion = '<img src="$1" title="$2" alt="$3">'
+end
+
+Com opções
+snipet "Img Person" do |snip|
+	snip.trigger = "img"
+	snip.expansion = '<img src="${1:opcao1/opcao2/opcao3}" title="${2:title}" alt="${3:alt}">'
+end
+
