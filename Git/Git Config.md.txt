@@ -1,0 +1,4 @@
+Config Git
+
+git config --global user.name "Miqueias Penha"
+git config --global user.email "miqueiaspenha@gmail.com"
