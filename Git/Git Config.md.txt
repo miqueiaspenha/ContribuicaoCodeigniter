@@ -1,4 +1,4 @@
 Config Git
 
-git config --global user.name "Miqueias Penha"
-git config --global user.email "miqueiaspenha@gmail.com"
+git config --global user.name "User Name"
+git config --global user.email "email@email.com"
