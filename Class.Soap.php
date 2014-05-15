@@ -14,9 +14,8 @@ class Soap {
         $function = 'valida';
         $arguments = array('valida' => array('usuario' => $login, 'senha' => $senha));
         $result = $this->client-> __soapCall($function, $arguments, $this->options);
-        if ($result -> validaResult == 0) {
+        if ($result -> validaResult == 1) {
             return $result -> validaResult;
-            return true;
         } else {
             return false;
         }
